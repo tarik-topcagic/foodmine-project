@@ -10,6 +10,7 @@ import { FormsModule } from '@angular/forms';
 import { TagsComponent } from './tags/tags.component';
 import { FoodPageComponent } from './food-page/food-page.component';
 import { CartPageComponent } from './cart-page/cart-page.component';
+import { NotFoundComponent } from './not-found/not-found.component';
 // import { RatingModule } from 'ng-starrating';
 
 
@@ -22,6 +23,7 @@ import { CartPageComponent } from './cart-page/cart-page.component';
     TagsComponent,
     FoodPageComponent,
     CartPageComponent,
+    NotFoundComponent,
   ],
   imports: [
     BrowserModule,
